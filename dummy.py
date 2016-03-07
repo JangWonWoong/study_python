@@ -1,9 +1,9 @@
-#!C:\Anaconda3\pyhon3.exe
-# 위의 #! shebang 이라고 불리우는 위치의 python3로 실행
+# -*- coding: utf-8 -*-
+#!/usr/bin/python
 __author__ = 'dev12'
 import sys
 
 def main():
-    print(sys.platform + ": Hellow world" ,end='----------------')
+    print(sys.platform + ": Hellow world" ,'----------------')
 
 if __name__ == '__main__': main()

@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+#!/usr/bin/python
 __author__ = 'dev12'
 def my_year_rang_with_bug(start,end,step=1):
     result = start
@@ -9,7 +11,7 @@ def print_years(start,end,step=1,per_line=10):
     count = 1
     for year in range(start,end+1,step):
         end_char = "\n" if count % per_line == 0 else "\t"
-        print(year,end=end_char)
+        #print(year,end=end_char)
         count += 1
 def main():
     """
